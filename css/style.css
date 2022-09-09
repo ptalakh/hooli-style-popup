@@ -148,27 +148,23 @@ label {
 	width: 280px;
 	height: 308px;
 	overflow: auto;
-	padding: 12px 2px 0 2px;
-	margin: 0 -3px;
+	padding: 12px 0 0 0;	
 	box-shadow: 0 0 2px 1px #fff;
 	background-color: #4a463d;
 	border-radius: 5px;
 }
 
-.popup__item:not(:last-child) {
-	margin-bottom: 6px;
-}
-
 .popup__item_more {
+	flex: 1 1 100%;
 	margin-top: 6px;
 }
 
 .item-popup {
 	flex: 0 1 33.333%;
-	padding: 0 3px;
 }
 
 .item-popup__card {
+	margin: 3px;
 	padding: 10px 0;
 	background-color: rgba(255, 255, 255, 0.1);
 	border-radius: 5px;
@@ -198,7 +194,6 @@ label {
 }
 
 .popup-more {
-	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -235,11 +230,7 @@ label {
 	display: none;
 	width: 100%;
 	background-color: #4a463d;
-	margin: 0 -3px 12px;
-}
-
-.popup-more__item {
-	padding: 0 3px;
+	margin: 0 0 12px 0;
 }
 
 .popup-more__checkbox:checked~.popup-more__list {
@@ -334,7 +325,7 @@ label {
 		margin-left: 20px;
 	}
 	.popup__list {
-		padding: 8px 2px 0 2px;
+		padding: 8px 0 0 0;
 	}
 	.popup-more__list {
 		margin-bottom: 8px;
@@ -347,8 +338,6 @@ label {
 		padding: 10px;
 	}
 	.popup__body {
-		display: none;
-		position: absolute;
 		right: 50%;
 		transform: translate(50%, 0);
 	}
@@ -360,22 +349,15 @@ label {
 	.popup__list {
 		width: 235px;
 		height: 295px;
-		padding: 5px 1px 0 1px;
-		margin: 0 -2px;
-	}
-	.popup__item {
-		padding: 0 2px;
-	}
-	.popup__item:not(:last-child) {
-		margin-bottom: 3px;
+		padding: 5px 0 0 0;
 	}
 	.popup__item_more {
 		margin-top: 0;
 	}
 	.popup-more__list {
-		margin: 0 -2px 5px;
+		margin: 0 0 5px 0;
 	}
-	.popup-more__item {
-		padding: 0 2px;
+	.item-popup__card {
+		margin: 2px;
 	}
 }
