@@ -104,7 +104,7 @@ label {
 	box-shadow: 0 0 3px 1px #ff0000;
 }
 
-.popup__label{
+.popup__label {
 	width: 30px;
 	height: 30px;
 	display: flex;
@@ -137,7 +137,7 @@ label {
 	border-bottom: 10px solid rgba(255, 255, 255, 0.7);
 }
 
-.popup__checkbox:checked~.popup__body {
+.popup__checkbox:checked ~ .popup__body {
 	display: block;
 }
 
@@ -148,7 +148,7 @@ label {
 	width: 280px;
 	height: 308px;
 	overflow: auto;
-	padding: 8px 0 0 0;	
+	padding: 8px 0 0 0;
 	box-shadow: 0 0 2px 1px #fff;
 	background-color: #4a463d;
 	border-radius: 5px;
@@ -204,7 +204,7 @@ label {
 	appearance: none;
 }
 
-.popup-more__checkbox:focus~.popup-more__label {
+.popup-more__checkbox:focus ~ .popup-more__label {
 	box-shadow: 0 0 3px 1px #ff0000;
 }
 
@@ -233,13 +233,13 @@ label {
 	margin: 0 0 8px 0;
 }
 
-.popup-more__checkbox:checked~.popup-more__list {
+.popup-more__checkbox:checked ~ .popup-more__list {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 }
 
-.popup-more__checkbox:checked~.popup-more__label {
+.popup-more__checkbox:checked ~ .popup-more__label {
 	display: none;
 }
 
@@ -248,7 +248,7 @@ label {
 	appearance: none;
 }
 
-.notifications__checkbox:focus~.notifications__label {
+.notifications__checkbox:focus ~ .notifications__label {
 	box-shadow: 0 0 3px 1px #ff0000;
 }
 
@@ -291,7 +291,7 @@ label {
 	border-bottom: 10px solid rgba(255, 255, 255, 0.7);
 }
 
-.notifications__checkbox:checked~.notifications__message {
+.notifications__checkbox:checked ~ .notifications__message {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -331,7 +331,6 @@ label {
 		margin-bottom: 5px;
 	}
 }
-
 
 @media (max-width: 480px) {
 	.header {
